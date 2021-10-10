@@ -1,22 +1,30 @@
 {
   "name": "e-commerce-back-end",
   "version": "1.0.0",
-  "description": "Create a back end for ecommerce website",
+  "description": "Create emcommerce backend",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Truong-Duong/E-Commerce-Back-End.git"
   },
+  "keywords": [
+    "[]"
+  ],
   "author": "Truong Duong",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Truong-Duong/E-Commerce-Back-End/issues"
   },
   "homepage": "https://github.com/Truong-Duong/E-Commerce-Back-End#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
